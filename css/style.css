@@ -1,0 +1,97 @@
+.vh-100 {
+	min-height: 100vh; /* Altura total da tela */
+}
+
+.w-400 {
+	width: 400px; /* Largura fixa para caixas de login/chat */
+}
+
+.fs-xs {
+	font-size: 1rem; /* Tamanho pequeno de fonte */
+}
+
+.fs-sm {
+	font-size: 1.4rem; /* Fonte ligeiramente maior */
+}
+
+.fs-big {
+	font-size: 5rem !important; /* Ícones ou textos grandes */
+}
+
+.w-10 {
+	width: 10%; /* Imagens de perfil pequenas */
+}
+
+.w-15 {
+	width: 15%; /* Imagens de perfil médias */
+}
+
+a {
+	text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.online {
+	width: 10px;
+	height: 10px;
+	background: green;
+	border-radius: 50%; /* Indicador de usuário online */
+}
+
+small {
+	color: #bbb;
+	font-size: 0.7rem;
+	text-align: right; /* Usado para exibir horários ou descrições */
+}
+
+.chat-box {
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 50vh; /* Caixa de mensagens com rolagem */
+}
+
+/* Bolhas de mensagem */
+.rtext {
+	width: 65%;
+	background: #f8f9fa;
+	color: #444;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	align-self: flex-end; /* Envia para direita */
+}
+
+.ltext {
+	width: 65%;
+	background: #3289c8;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	align-self: flex-start; /* Envia para esquerda */
+}
+
+/* Estilo da barra de rolagem */
+/* Largura */
+*::-webkit-scrollbar {
+	width: 3px;
+}
+
+/* Trilha */
+*::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Alça */
+*::-webkit-scrollbar-thumb {
+	background: #aaa;
+}
+
+/* Alça ao passar o mouse */
+*::-webkit-scrollbar-thumb:hover {
+	background: #3289c8;
+}
+
+textarea {
+	resize: none; /* Impede redimensionamento */
+}
+
